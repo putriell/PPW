@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> tugas praktikum </title>
+        <link rel="stylesheet" href="Cartaly.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="javascript:void(0)">Cartaly</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Produk</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Nama Produk">
+                  <button class="btn btn-light" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <section class="jumbotron text-center text-dark shadow p">
+            <img src="background4.png" width="200" class="rounded-circle ">
+            <br><br>
+            <h2 class="display-5">Cartaly</h2>
+            <p class="lead"> your fashion is your personality</p>
+        </section>
+
+        <div class="bg-gradient">
+            <div class="container pt-4 vh-50 m-auto">
+              <div class="category mt-4 row text-center">
+                <h3 class="introduction text-center"> Category product</h3>
+                <div class="row m-1 pt-4">
+                  <div class="col-md-4 mb-2">
+                    <div class="card border-0 shadow-sm" style="width: 18rem">
+                      <img
+                        src="https://i.pinimg.com/474x/29/7c/e6/297ce6efacf461ca9f30c5ede857edc8.jpg"
+                        class="card-img-top"
+                        alt="card 1"
+                      />
+                      <div class="card-body">
+                        <p class="card-text text-center fw-bold">
+                            Clothes
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-2">
+                    <div class="card border-0 shadow-sm" style="width: 18rem">
+                      <img
+                        src="https://i.pinimg.com/474x/9b/2e/c4/9b2ec4af3a5813232911d883113038a8.jpg"
+                        class="card-img-top"
+                        alt="card 1"
+                      />
+                      <div class="card-body">
+                        <p class="card-text text-center fw-bold">
+                            Pants
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-2">
+                    <div class="card border-0 shadow-sm" style="width: 18rem">
+                      <img
+                        src="https://i.pinimg.com/474x/56/a2/b4/56a2b437db1bea1e90343d1345ec7ab3.jpg"
+                        class="card-img-top"
+                        alt="card 1"
+                      />
+                      <div class="card-body">
+                        <p class="card-text text-center fw-bold">
+                          Foot Wear
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="pagination justify-content-center" style="margin:20px 0">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+              </div>
+              <form action="/action_page.php" class="py-3 my-4 border-top">
+                <h4 class="introduction text-left"> Log in / sign up</h4> 
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>  
+            </div>
+        </div>
+  </body>
+  <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</html> 
